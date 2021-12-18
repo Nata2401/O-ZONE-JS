@@ -11,8 +11,6 @@
         t.style.display = "";
       });
   })(),
-    (() => {
-      const e = document.getElementById("cart");
-      console.log(e);
-    })();
+    document.getElementById("cart"),
+    console.log("second");
 })();

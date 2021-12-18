@@ -1,5 +1,5 @@
-import cart from "./cart";
-import second from "./second";
+import cart from "./modules/cart";
+import second from "./modules/second";
 
 cart();
 second();
